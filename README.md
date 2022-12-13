@@ -34,7 +34,7 @@ This means, instead of building our neural network architectures from scratch, w
   
 ## Extra Curriculam
 
-- [ ] Read through the TensorFlow Transfer Learning Guide and define the main two types of transfer learning in your own words.
-- [ ] Go through the Transfer Learning with TensorFlow Hub tutorial on the TensorFlow website and rewrite all of the code yourself into a new Google Colab notebook making comments about what each step does along the way.
-- [ ] We haven't covered fine-tuning with TensorFlow Hub in this notebook, but if you'd like to know more, go through the fine-tuning a TensorFlow Hub model tutorial on the TensorFlow homepage.How to fine-tune a tensorflow hub model:
-- [ ] Look into experiment tracking with Weights & Biases, how could you integrate it with our existing TensorBoard logs?
+- [ ] Read through the [TensorFlow Transfer Learning Guide](https://www.tensorflow.org/tutorials/images/transfer_learning) and define the main two types of transfer learning in your own words.
+- [ ] Go through the [Transfer Learning with TensorFlow Hub tutorial](https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub) on the TensorFlow website and rewrite all of the code yourself into a new Google Colab notebook making comments about what each step does along the way.
+- [ ] We haven't covered fine-tuning with TensorFlow Hub in this notebook, but if you'd like to know more, go through the [fine-tuning a TensorFlow Hub model tutorial](https://www.tensorflow.org/hub/tf2_saved_model#fine-tuning) on the TensorFlow homepage.How to fine-tune a tensorflow hub model:
+- [ ] Look into [experiment tracking with Weights & Biases](https://www.wandb.com/experiment-tracking), how could you integrate it with our existing TensorBoard logs?
