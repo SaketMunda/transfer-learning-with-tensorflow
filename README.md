@@ -23,6 +23,8 @@ This means, instead of building our neural network architectures from scratch, w
 # 0. Feature Extraction
 
 This section demonstrates how we use transfer learning for Feature Extraction.
+
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SaketMunda/transfer-learning-with-tensorflow/blob/master/transfer_learning_with_tensorflow_feature_extraction.ipynb)
 
 ## What we're going to cover
@@ -53,6 +55,7 @@ This section demonstrates how we use transfer learning for Feature Extraction.
 # 1. Fine Tuning
 
 This section demonstrates how we use transfer learning for Fine Tuning.
+
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SaketMunda/transfer-learning-with-tensorflow/blob/master/fine_tuning_transfer_learning_with_tensorflow.ipynb)
 
