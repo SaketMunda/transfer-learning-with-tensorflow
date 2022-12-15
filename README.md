@@ -14,6 +14,17 @@ This means, instead of building our neural network architectures from scratch, w
 
 **By the way, those models are trained on millions of custom data before getting publicise.**
 
+# Types of Transfer Learning
+
+0. **Feature Extraction** : Similar Architecture of Model but our own custom dataset
+1. **Fine-Tuning** : Some layers are unfrozen to fine-tune and might need more data to train
+2. **Use As It Is**
+
+# 0. Feature Extraction
+
+This section demonstrates how we use transfer learning for Feature Extraction.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SaketMunda/transfer-learning-with-tensorflow/blob/master/transfer_learning_with_tensorflow_feature_extraction.ipynb)
+
 ## What we're going to cover
 
 - Introduce Transfer Learning (a way to beat all of our old self-built models)
@@ -38,3 +49,16 @@ This means, instead of building our neural network architectures from scratch, w
 - [ ] Go through the [Transfer Learning with TensorFlow Hub tutorial](https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub) on the TensorFlow website and rewrite all of the code yourself into a new Google Colab notebook making comments about what each step does along the way.
 - [ ] We haven't covered fine-tuning with TensorFlow Hub in this notebook, but if you'd like to know more, go through the [fine-tuning a TensorFlow Hub model tutorial](https://www.tensorflow.org/hub/tf2_saved_model#fine-tuning) on the TensorFlow homepage.How to fine-tune a tensorflow hub model:
 - [ ] Look into [experiment tracking with Weights & Biases](https://www.wandb.com/experiment-tracking), how could you integrate it with our existing TensorBoard logs?
+
+# 1. Fine Tuning
+
+This section demonstrates how we use transfer learning for Fine Tuning.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SaketMunda/transfer-learning-with-tensorflow/blob/master/fine_tuning_transfer_learning_with_tensorflow.ipynb)
+
+## Exercises
+
+
+## Extra Curriculum
+
+
