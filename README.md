@@ -25,11 +25,11 @@ This means, instead of building our neural network architectures from scratch, w
 ## Exercises
 
 - [x] Build and fit a model using the same data we have here but with the MobileNetV2 architecture feature extraction ([mobilenet_v2_100_224/feature_vector](https://tfhub.dev/google/imagenet/mobilenet_v2_100_224/feature_vector/4)) from TensorFlow Hub, how does it perform compared to our other models?
-- [ ] Name 3 different image classification models on TensorFlow Hub that we haven't used.
-- [ ] Build a model to classify images of two different things you've taken photos of.
+- [x] Name 3 different image classification models on TensorFlow Hub that we haven't used.
+- [x] Build a model to classify images of two different things you've taken photos of.
     - You can use any feature extraction layer from TensorFlow Hub you like for this.
     - You should aim to have at least 10 images of each class, for example to build a fridge versus oven classifier, you'll want 10 images of fridges and 10 images of ovens.
-- [ ] What is the current best performing model on ImageNet?
+- [x] What is the current best performing model on ImageNet?
   - *Hint*: you might want to check [sotabench.com](https://www.sotabench.com/) for this.
   
 ## Extra Curriculam
