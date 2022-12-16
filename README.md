@@ -56,6 +56,26 @@ This section demonstrates how we use transfer learning for Feature Extraction.
 
 This section demonstrates how we use transfer learning for Fine Tuning.
 
+In **fine-tuning transfer learning** the pretrained model weights from another model are unfrozen and tweaked during to better suit our own data.
+
+For feature extraction transfer learning, you may only train the top 1-3 layers like adjust the input layer of a pretrained model with your own data, in fine-tuning transfer learning, you might train 1-3+ layers of a pre-trained model (where the '+' indicates that many or all of the layers could be trained).
+
+## What we're going to cover
+
+We're going to go through the follow with TensorFlow:
+
+- Introduce fine-tuning, a type of transfer learning to modify a pre-trained model to be more suited to your data
+- Using the Keras Functional API (a differnt way to build models in Keras)
+- Using a smaller dataset to experiment faster (e.g. 1-10% of training samples of 10 classes of food)
+- Data augmentation (how to make your training dataset more diverse without adding more data)
+- Running a series of modelling experiments on our Food Vision data
+    - Model 0: a transfer learning model using the Keras Functional API
+    - Model 1: a feature extraction transfer learning model on 1% of the data with data augmentation
+    - Model 2: a feature extraction transfer learning model on 10% of the data with data augmentation
+    - Model 3: a fine-tuned transfer learning model on 10% of the data
+    - Model 4: a fine-tuned transfer learning model on 100% of the data
+- Introduce the ModelCheckpoint callback to save intermediate training results
+- Compare model experiments results using TensorBoard
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SaketMunda/transfer-learning-with-tensorflow/blob/master/fine_tuning_transfer_learning_with_tensorflow.ipynb)
 
