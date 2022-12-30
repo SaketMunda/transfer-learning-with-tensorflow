@@ -81,6 +81,11 @@ We're going to go through the follow with TensorFlow:
 
 ## Exercises
 
+- [ ] Write a function to visualize an image from any dataset (train or test file) and any class (e.g. "steak", "pizza"... etc), visualize it and make a prediction on it using a trained model.
+- [ ] Use feature-extraction to train a transfer learning model on 10% of the Food Vision data for 10 epochs using [tf.keras.applications.EfficientNetB0](https://www.tensorflow.org/api_docs/python/tf/keras/applications/EfficientNetB0) as the base model. Use the [ModelCheckpoint](https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/ModelCheckpoint) callback to save the weights to file.
+- [ ] Fine-tune the last 20 layers of the base model you trained in 2 for another 10 epochs. How did it go?
+- [ ] Fine-tune the last 30 layers of the base model you trained in 2 for another 10 epochs. How did it go?
+
 
 ## Extra Curriculum
 
