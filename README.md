@@ -93,4 +93,20 @@ We're going to go through the follow with TensorFlow:
 - [ ] Read the [ULMFit paper](https://arxiv.org/abs/1801.06146) (technical) for an introduction to the concept of freezing and unfreezing different layers.
 - [ ] Read up on learning rate scheduling (there's a [TensorFlow callback](https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/LearningRateScheduler) for this), how could this influence our model training?
     - If you're training for longer, you probably want to reduce the learning rate as you go... the closer you get to the bottom of the hill, the smaller steps you want to take. Imagine it like finding a coin at the bottom of your couch. In the beginning your arm movements are going to be large and the closer you get, the smaller your movements become.
+    
+# 2. Scaling Up
+
+In this section, we're going to scale up from using 10 classes of the Food101 data to using all of the classes in the Food101 dataset.
+
+Our goal is to beat the original [Food101 paper's](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/static/bossard_eccv14_food-101.pdf) results with 10% of data.
+
+## What we're going to cover
+
+- Downloading and preparing 10% of the Food101 data (10% of training data)
+- Training a feature extraction transfer learning model on 10% of the Food101 training data
+- Fine-tuning our feature extraction model
+- Saving and loaded our trained model
+- Evaluating the performance of our Food Vision model trained on 10% of the training data
+    - Finding our model's most wrong predictions
+- Making predictions with our Food Vision model on custom images of food
 
