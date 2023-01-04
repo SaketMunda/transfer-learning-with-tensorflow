@@ -110,3 +110,6 @@ Our goal is to beat the original [Food101 paper's](https://data.vision.ee.ethz.c
     - Finding our model's most wrong predictions
 - Making predictions with our Food Vision model on custom images of food
 
+# Resources
+
+This curriculam and topics are learned from [Mr. D Bourke's tutorials of Deep Learning](https://dev.mrdbourke.com/tensorflow-deep-learning/04_transfer_learning_in_tensorflow_part_1_feature_extraction/) 
