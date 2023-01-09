@@ -110,6 +110,20 @@ Our goal is to beat the original [Food101 paper's](https://data.vision.ee.ethz.c
     - Finding our model's most wrong predictions
 - Making predictions with our Food Vision model on custom images of food
 
+## Exercises
+
+- [ ] Take 3 of your own photos of food and use the trained model to make predictions on them, share your predictions with the other students in Discord and show off your Food Vision model 🍔👁.
+- [ ] Train a feature-extraction transfer learning model for 10 epochs on the same data and compare its performance versus a model which used feature extraction for 5 epochs and fine-tuning for 5 epochs (like we've used in this notebook). Which method is better?
+- [ ] Recreate the first model (the feature extraction model) with [`mixed_precision`](https://www.tensorflow.org/guide/mixed_precision) turned on.
+    - Does it make the model train faster?
+    - Does it effect the accuracy or performance of our model?
+    - What's the advantages of using `mixed_precision` training?
+
+## Extra-Curriculum
+
+- [ ] Spend 15-minutes reading up on the [EarlyStopping callback](https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/EarlyStopping). What does it do? How could we use it in our model training?
+- [ ] Spend an hour reading about [Streamlit](https://www.streamlit.io/). What does it do? How might you integrate some of the things we've done in this notebook in a Streamlit app?
+
 # Resources
 
 This curriculam and topics are learned from [Mr. D Bourke's tutorials of Deep Learning](https://dev.mrdbourke.com/tensorflow-deep-learning/04_transfer_learning_in_tensorflow_part_1_feature_extraction/) 
